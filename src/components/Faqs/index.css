@@ -1,0 +1,30 @@
+/* Write your code here. */
+.maincontainer {
+  background-color: #d7dae6;
+  height: 100vh;
+  padding: 30px;
+  width: 100vw;
+}
+.subcontainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px;
+  height: 100%;
+}
+.mainheading {
+  font-size: 40px;
+  color: #cb8805;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+}
