@@ -24,9 +24,9 @@ class FaqItem extends Component {
               onClick={this.onClickAnswer}
             >
               <img
-                src="https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png"
+                src="https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png"
                 className="image"
-                alt="icon"
+                alt="minus"
               />
             </button>
           ) : (
@@ -36,9 +36,9 @@ class FaqItem extends Component {
               onClick={this.onClickAnswer}
             >
               <img
-                src="https://assets.ccbp.in/frontend/react-js/faqs-minus-icon-img.png"
+                src="https://assets.ccbp.in/frontend/react-js/faqs-plus-icon-img.png"
                 className="image"
-                alt="icon"
+                alt="plus"
               />
             </button>
           )}
